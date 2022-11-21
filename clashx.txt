@@ -6,22 +6,22 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "消息: 1条未读，在APP查看", server: 221.181.185.224, port: 12752, type: trojan, password: TZkPX9, sni: if25a.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x, server: 221.181.185.224, port: 12752, type: trojan, password: TZkPX9, sni: if25a.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x, server: 139.227.182.232, port: 12851, type: trojan, password: TZkPX9, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x, server: 221.181.185.224, port: 12752, type: trojan, password: TZkPX9, sni: if25a.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x, server: 139.227.182.232, port: 12851, type: trojan, password: TZkPX9, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x, server: 221.181.185.222, port: 13335, type: trojan, password: TZkPX9, sni: if24a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x, server: 14.18.123.155, port: 26375, type: trojan, password: TZkPX9, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x, server: 221.181.185.222, port: 14912, type: trojan, password: TZkPX9, sni: if24a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x, server: 14.18.123.155, port: 14913, type: trojan, password: TZkPX9, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 日本 M46 | 福港隧道 | 2x, server: 117.31.4.41, port: 10107, type: trojan, password: TZkPX9, sni: z12a.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x, server: 124.225.24.142, port: 10689, type: trojan, password: TZkPX9, sni: z4a.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x, server: 101.226.18.118, port: 20691, type: trojan, password: TZkPX9, sni: z9c.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x, server: 221.181.185.118, port: 14571, type: trojan, password: TZkPX9, sni: if22a.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x, server: 101.226.18.118, port: 20691, type: trojan, password: TZkPX9, sni: z9c.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x, server: 124.225.24.142, port: 10689, type: trojan, password: TZkPX9, sni: z4a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x, server: 101.226.18.118, port: 20304, type: trojan, password: TZkPX9, sni: z9c.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 台湾 W94A | 沪港隧道 | 2x, server: 61.171.98.208, port: 20303, type: trojan, password: TZkPX9, sni: z10b.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x, server: 221.181.185.118, port: 14767, type: trojan, password: TZkPX9, sni: if22a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x, server: 139.227.182.232, port: 13334, type: trojan, password: TZkPX9, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x, server: 139.227.182.232, port: 14554, type: trojan, password: TZkPX9, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x, server: 221.181.185.118, port: 14767, type: trojan, password: TZkPX9, sni: if22a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x, server: 124.225.24.142, port: 10695, type: trojan, password: TZkPX9, sni: z4a.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x, server: 139.227.182.232, port: 14554, type: trojan, password: TZkPX9, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x, server: 14.18.123.155, port: 13329, type: trojan, password: TZkPX9, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x, server: 223.111.202.174, port: 13329, type: trojan, password: TZkPX9, sni: z7b.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 美国 G52 | 广港隧道 | 2x, server: 14.18.123.155, port: 14551, type: trojan, password: TZkPX9, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
@@ -41,22 +41,22 @@ proxy-groups:
     proxies:
       - DIRECT
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
@@ -76,22 +76,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
@@ -111,22 +111,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
@@ -146,22 +146,22 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
@@ -181,22 +181,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
@@ -216,22 +216,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
@@ -266,22 +266,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验6小时 | 3x
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验24小时 | 3x
+      - 🇭🇰 香港 I2A | IEPL、江苏移动、Telegram、限时体验3小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验21小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M177 | 沪港隧道、流媒体、Netflix(SG) | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
       - 🇭🇰 日本 M46 | 福港隧道 | 2x
-      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
-      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
       - 🇭🇰 香港 W73 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W63 | IEPL中转、Youtube | 2x
+      - 🇭🇰 香港 W17 | IEPL中转、Youtube | 2x
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇭🇰 台湾 W94A | 沪港隧道 | 2x
-      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
+      - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
       - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
       - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G52 | 广港隧道 | 2x
