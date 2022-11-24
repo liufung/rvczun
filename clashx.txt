@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "消息: 1条未读，在APP查看", server: 139.227.182.232, port: 12851, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x, server: 139.227.182.232, port: 12851, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x, server: 139.227.182.232, port: 12851, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x, server: 221.181.185.222, port: 13335, type: trojan, password: yMxfDR, sni: if24a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x, server: 14.18.123.155, port: 26375, type: trojan, password: yMxfDR, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x, server: 14.18.123.155, port: 14913, type: trojan, password: yMxfDR, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
@@ -19,13 +19,13 @@ proxies:
   - {name: 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x, server: 101.227.55.209, port: 20903, type: trojan, password: yMxfDR, sni: z9d.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x, server: 221.181.185.118, port: 14767, type: trojan, password: yMxfDR, sni: if22a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x, server: 139.227.182.232, port: 13334, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x, server: 14.18.123.155, port: 13329, type: trojan, password: yMxfDR, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x, server: 223.111.202.174, port: 13329, type: trojan, password: yMxfDR, sni: z7b.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x, server: 124.225.24.142, port: 10695, type: trojan, password: yMxfDR, sni: z4a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x, server: 139.227.182.232, port: 14554, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 美国 G52 | 广港隧道 | 2x, server: 14.18.123.155, port: 14551, type: trojan, password: yMxfDR, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 美国 G22 | 福港隧道 | 2x, server: 117.31.4.41, port: 10055, type: trojan, password: yMxfDR, sni: z12a.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x, server: 14.18.123.155, port: 13329, type: trojan, password: yMxfDR, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x, server: 223.111.202.174, port: 13329, type: trojan, password: yMxfDR, sni: z7b.ft3.us, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 美国 G29 | 沪港隧道 | 2x, server: 139.227.182.232, port: 14557, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 美国 G22 | 福港隧道 | 2x, server: 117.31.4.41, port: 10055, type: trojan, password: yMxfDR, sni: z12a.ft3.us, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 美国 G52 | 广港隧道 | 2x, server: 14.18.123.155, port: 14551, type: trojan, password: yMxfDR, sni: z11a.ft3.us, skip-cert-verify: true, udp: true}
   - {name: ----- 账号信息 -----, server: 139.227.182.232, port: 12851, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
   - {name: "登录邮箱: nwijkpr@f.lm", server: 139.227.182.232, port: 12851, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
   - {name: "体验套餐: 剩余2天", server: 139.227.182.232, port: 12851, type: trojan, password: yMxfDR, sni: if2e.ft3.us, skip-cert-verify: true, udp: true}
@@ -40,7 +40,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -53,13 +53,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
@@ -74,7 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -87,13 +87,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
@@ -108,7 +108,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -121,13 +121,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
@@ -142,7 +142,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -155,13 +155,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
@@ -176,7 +176,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -189,13 +189,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
@@ -210,7 +210,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -223,13 +223,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
@@ -259,7 +259,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "消息: 1条未读，在APP查看"
-      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验17小时 | 3x
+      - 🇭🇰 香港 I3 | IEPL、上海联通、动态IP、限时体验14小时 | 3x
       - 🇭🇰 美国 M155 | 沪港隧道、流媒体、Netflix(US) | 2x
       - 🇭🇰 美国 M119 | 沪港隧道、流媒体、闲时可见 | 2x
       - 🇭🇰 新加坡 M226 | 广港隧道、流媒体、Netflix(SG)、闲时可见 | 2x
@@ -272,13 +272,13 @@ proxy-groups:
       - 🇭🇰 台湾 W94B | 深港隧道、闲时可见 | 2x
       - 🇯🇵 日本 W11 | 苏日隧道、闲时可见 | 2x
       - 🇯🇵 日本 W44 | 沪日隧道、闲时可见 | 2x
-      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
-      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇯🇵 俄罗斯 B175 | 沪日隧道 | 1x
       - 🇯🇵 乌克兰 B101 | 沪日隧道 | 1x
-      - 🇭🇰 美国 G52 | 广港隧道 | 2x
-      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇩🇪 德国 B16A | 隧道中转、广州电信 | 1x
+      - 🇩🇪 德国 B16B | 隧道中转、江苏移动 | 1x
       - 🇭🇰 美国 G29 | 沪港隧道 | 2x
+      - 🇭🇰 美国 G22 | 福港隧道 | 2x
+      - 🇭🇰 美国 G52 | 广港隧道 | 2x
       - ----- 账号信息 -----
       - "登录邮箱: nwijkpr@f.lm"
       - "体验套餐: 剩余2天"
